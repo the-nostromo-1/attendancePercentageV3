@@ -16,6 +16,7 @@ int main() {
 	scanf("%f", &daysAttended); // user input for 2nd variable
 	//
 	const float percentageTotal = (daysAttended / totalDays); // calculating the percentage total
+	// making percentageTotal a constant float value
 	printf("You attended %.2f percent of the total school days.\n", percentageTotal);
 	return 0;
 }
